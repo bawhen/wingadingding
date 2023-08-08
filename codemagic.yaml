@@ -6,8 +6,8 @@ workflows:
     environment:
       vars:
         BUNDLE_ID: "io.codemagic.sample.iosnative"
-        XCODE_WORKSPACE: "Cashapp.xcodeproj" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Cashapp" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: "CashappSpoof.xcodeproj" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "CashappSpoof" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 1555555551
       xcode: latest
       cocoapods: default
